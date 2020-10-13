@@ -1,12 +1,6 @@
-<p align='left'>
- <a href="03-app-vs-library-concerns.md">◀ Back: App vs. Library Concerns</a>
-</p>
+Nice and simple Typescript library starter project which adds lots of value out of few tools. Based on recommendations by [Mike North](https://github.com/mike-north).
 
----
-
-# Mike's "bare bones" TS setup
-
-In this part of the workshop, we'll create a new small library from nothing, so you can see how Mike's "lots of value out of few tools" approach keeps things nice and simple.
+# The Why & How:
 
 ## Getting Started
 
