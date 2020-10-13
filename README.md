@@ -1,5 +1,7 @@
 Nice and simple Typescript library starter project which adds lots of value out of few tools. Based on recommendations by [Mike North](https://github.com/mike-north).
 
+[View API Docs](https://dale-french.github.io/typescript-lib-starter/typescript-lib-starter.html)
+
 # The Why & How:
 
 ## Getting Started
