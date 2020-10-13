@@ -7,7 +7,10 @@
     "build": "tsc",
     "dev": "yarn build --watch --preserveWatchOutput",
     "lint": "eslint src --ext js,ts",
-    "test": "jest"
+    "test": "jest",
+    "api-report": "api-extractor run",
+    "api-docs": "api-documenter markdown -i temp -o docs",
+    "build-with-docs": "yarn build && yarn api-report && yarn api-docs"
   },
   "license": "MIT",
   "volta": {
@@ -17,6 +20,8 @@
   "devDependencies": {
     "@babel/preset-env": "^7.11.5",
     "@babel/preset-typescript": "^7.10.4",
+    "@microsoft/api-documenter": "^7.9.10",
+    "@microsoft/api-extractor": "^7.10.4",
     "@types/jest": "^26.0.14",
     "@typescript-eslint/eslint-plugin": "^4.4.1",
     "@typescript-eslint/parser": "^4.4.1",
